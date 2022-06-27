@@ -5,6 +5,7 @@ Welcome to the hisLite (Hospital Information System). The program contains three
 
 I've created three files which contains data inputs to three Classes - doctorsDatabase.txt, patientsDatabase.txt, visitsDatabase.txt.
 
+
 File doctorsDatabase.txt contains information about idOfDoctor, surname, name, medicalSpeciality, dateOfBirth, peselNumber
   
   Example:
@@ -12,6 +13,7 @@ File doctorsDatabase.txt contains information about idOfDoctor, surname, name, m
   23 Smith Monica pediatrist 1965-03-16 879-122-69-94 65031687654
   
   34 Simpson Scarlett nephrologist 1965-03-16 879-122-69-94 65031687654
+
 
 File patientsDatabase.txt contains: idOfPatient, surname, name, peselNumber, dateOfBirth
   
@@ -21,6 +23,7 @@ File patientsDatabase.txt contains: idOfPatient, surname, name, peselNumber, dat
   
   124 Minardi Joe 88030422345 1988-03-04
 
+
 File visitsDatabase.txt contains information about medical visits: idOfDoctor, idOfPatient, dateOfVisit
   
   Example:
@@ -28,6 +31,7 @@ File visitsDatabase.txt contains information about medical visits: idOfDoctor, i
   23 124 2006-12-13
   
   34 122 2007-02-20
+
 
 From the information contained in Classes, I've created orders for the hisLite system:
          - find doctor with most visits,
